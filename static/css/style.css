@@ -1,10 +1,46 @@
+/* Resetting default padding and margin for the entire page */
 body {
   padding: 0;
   margin: 0;
 }
 
+/* Setting full height for the map container, body, and html */
 #map,
 body,
 html {
   height: 100%;
+}
+
+/* Styling for the legend */
+.legend {
+  padding: 10px 6px;
+  font: 16px 'Times New Roman', Times, serif; 
+  background: #ffe4c4; 
+  background: rgba(200, 220, 255, 0.7); 
+  line-height: 28px; 
+  color: #4b0082; 
+}
+
+
+/* Styling for the legend heading */
+.legend h4 {
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 12px 8px;
+  color: #777;
+}
+
+/* Styling for individual legend spans */
+.legend span {
+  position: relative;
+  bottom: 3px;
+}
+
+/* Styling for legend icons */
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 0 8px 0 0;
+  opacity: 0.7;
 }
