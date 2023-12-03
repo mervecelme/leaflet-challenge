@@ -1,4 +1,4 @@
-# leaflet-challenge
+# Earthquake Visualization
 # Overview
 The challenge was addressed by creating an interactive map using JavaScript, D3, geoJSON, and Leaflet. 
 This map visualizes earthquakes occurring in the last seven days. Each marker on the map represents an earthquake, with its size indicating depth and color reflecting magnitude. 
